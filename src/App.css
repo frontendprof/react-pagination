@@ -1,9 +1,52 @@
 
 
 
-
+body{
+  width: 100vw;
+  max-height: 110vh;
+}
 
 
 .container {
   text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110%;
+}
+
+
+.pagination{
+  display: flex;
+  justify-content: center;
+}
+
+.list-group{
+  width: 80%;
+  display:flex;
+  justify-content: center;
+}
+
+.list-group-item{
+  border:1px solid white;
+  border-radius: 50%;
+  box-shadow: 3px -5px 5px rgb(185, 240, 4);
+}
+
+.page-item{
+  
+  border:2px solid rgb(98, 98, 196);
+  border-radius: 10px;
+}
+
+.page-link{
+  display: flex;
+  justify-content: space-between;
+  color:rgb(204, 41, 68);
+  font-size: 1.4rem;
+}
+
+.page-link:focus{
+  background-color: rgb(223, 223, 20);
 }
